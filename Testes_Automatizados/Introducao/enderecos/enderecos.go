@@ -2,6 +2,7 @@ package enderecos
 
 import "strings"
 
+// TiposDeEndereco verifica se um endereço tem um tipo válido e o retorna
 func TipoDeEndereco(endereco string) string {
 	tiposValidos := []string{"rua", "avenida", "estrada", "rodovia"}
 
