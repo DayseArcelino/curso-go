@@ -5,6 +5,8 @@ import "fmt"
 type usuario struct {
 	nome string
 	nota uint8
+	nota1 uint8
+	nota2 uint8
 }
 
 func alunosEstaAprovado(n1, n2, n3 float32) bool {
@@ -17,15 +19,15 @@ func alunosEstaAprovado(n1, n2, n3 float32) bool {
 	return false
 }
 
-func nome("Ana", "Maria", "José") string {
+/* func nome(txt string) string {
 
-	nome := usuario("Ana", "Maria", "José")
+	nome := usuario("João", "Maria", "José")
 
 	return nome
-}
+} */
 
 func main() {
-	Ana := usuario{"Ana", 10, 8, 5}
+	João := usuario{"João", 10, 8, 5}
 
 	Maria := usuario{"Maria", 7, 5, 8}
 
